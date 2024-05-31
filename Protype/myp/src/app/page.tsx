@@ -21,7 +21,7 @@ export default function Home() {
   const handlePromptSubmit = async (event: React.FormEvent) => {
     event.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8000/upload", {
+      const response = await axios.post("http://3.87.69.168:8000/upload", {
         prompt,
       });
       const { base_image, normal_map, roughness, displacement, albedo_map, bump_map, spec_map, metal_map} = response.data;
