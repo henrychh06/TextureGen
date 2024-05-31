@@ -19,7 +19,7 @@ from _texturizing import image_to_seamless
 from metalmap import create_metallicmap
 
 app = Sanic("my-hello-world-app")
-app.config.CORS_ORIGINS = ["http://localhost:3000", "http://3.87.69.168:3000","http://34.226.140.77:3000"]
+app.config.CORS_ORIGINS = ["http://localhost:3000","http://34.226.140.77:3000"]
 
 Extend(app)
 
