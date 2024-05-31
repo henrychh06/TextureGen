@@ -83,9 +83,9 @@ async def upload(request):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     
-    path1 = ("Protype/back/utils/models/1x_FrankenMapGenerator-CX-Lite_215000_G.pth")
+    path1 = ("utils/models/1x_FrankenMapGenerator-CX-Lite_215000_G.pth")
     OTHER_MAP_MODEL = path1
-    path2 = ("Protype/back/utils/models/1x_NormalMapGenerator-CX-Lite_200000_G.pth")
+    path2 = ("utils/models/1x_NormalMapGenerator-CX-Lite_200000_G.pth")
     NORMAL_MAP_MODEL = path2
     models = [load_model(NORMAL_MAP_MODEL), load_model(OTHER_MAP_MODEL)]
 
