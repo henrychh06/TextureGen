@@ -1,0 +1,126 @@
+body {
+    background-color: #37c080aa; /* Fondo oscuro y elegante */
+    color: #eaeaea; /* Texto claro para contraste */
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Tipografía más estética */
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #caf51e81; /* Fondo más oscuro para el contenedor */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(15, 176, 125, 0.5);
+  }
+  
+  /* Título principal */
+  .title {
+    font-size: 3rem;
+    color: #000000; /* Color llamativo para el título */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  /* Formulario */
+  .form {
+    width: 100%;
+    background-color: #0f3460; /* Fondo del formulario */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Área de texto */
+  .textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    border: 1px solid #2ee0ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 1.1rem;
+    color: #333;
+    background-color: #ffffffbb;
+    transition: border-color 0.3s;
+  }
+  
+  .textarea:focus {
+    border-color: #2ee0ff;
+    outline: none;
+  }
+  
+  /* Botón */
+  .button {
+    padding: 12px 25px;
+    background-color: #e94560; /* Color llamativo para el botón */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #ff2e63; /* Color del botón al pasar el ratón */
+    transform: translateY(-2px);
+  }
+  
+  .results {
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .subtitle {
+    font-size: 2.5rem;
+    color: #000000; /* Color llamativo para el subtítulo */
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .image-card {
+    background-color: #0f3460; /* Fondo de las tarjetas de imágenes */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .image-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .image-title {
+    font-size: 1.5rem;
+    color: #eaeaea; /* Color claro para el título de la imagen */
+    margin-bottom: 15px;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+  }
